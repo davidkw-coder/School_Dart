@@ -1,7 +1,5 @@
 // ignore_for_file: unused_element
 
-import 'dart:io';
-
 
 /*
 1.compare dart other programming language(javascript,python,java)
@@ -23,23 +21,3 @@ import 'dart:io';
 // | **Frameworks/Tools** | Flutter, VS Code, Android Studio           | Node.js, React, Angular, Vue, Next.js           | Django, Flask, FastAPI, TensorFlow       | Spring Boot, JavaFX, Android SDK           |
 // | **Community**        | Growing, Flutter-focused                   | Huge, huge library ecosystem                    | Huge, strong in AI/ML & web              | Large, stable, enterprise-level            |
 // | **Best For**         | Cross-platform apps                        | Web apps, flexible projects                     | AI, ML, data, scripting                  | Enterprise apps, Android, large systems    |
-
-
-
-// 8. Check user’s age group
-import 'dart:io';
-
-void main() {
-  stdout.write("Enter your age: ");
-  int age = int.parse(stdin.readLineSync()!);
-
-  if (age < 13) {
-    print("You are a child.");
-  } else if (age < 20) {
-    print("You are a teenager.");
-  } else if (age < 60) {
-    print("You are an adult.");
-  } else {
-    print("You are a senior citizen.");
-  }
-}
