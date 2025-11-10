@@ -1,4 +1,4 @@
-import 'dart:mirrors';
+
 
 class Employee {
   String? name;
@@ -23,7 +23,7 @@ class Employee {
 //   var emp=Employee("kellia",18,'Mathematics',350000.0);
 //   emp.display();
 var chair=Chair(name:'Desk',nofleg:4,color:"black");
-chair.display();
+// chair.display();
 }
 
 class Chair{

@@ -15,9 +15,11 @@ void main(){
   // myCar.year=1990;
   // myCar.color='Silver';
 
-  Car myCar=Car('BMW', 'Toyota', 2025, 'Silver', 20.2);
-  myCar.drive();
-  Car myCar2=Car('Marcedes Benz', 'Benz', 2002, 'Blue',34.7);
-  myCar2.drive();
-  print("${myCar2.carName} is at Speed:${myCar2.acceralate(36.8)}");
+  // Car myCar=Car('BMW', 'Toyota', 2025, 'Silver', 20.2);
+  // myCar.drive();
+  // Car myCar2=Car('Marcedes Benz', 'Benz', 2002, 'Blue',34.7);
+  // myCar2.drive();
+  // print("${myCar2.carName} is at Speed:${myCar2.acceralate(36.8)}");
+
+  
 }
