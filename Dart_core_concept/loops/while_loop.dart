@@ -15,14 +15,13 @@ void main(){
   // print('Max attempts reached. Please try again later.');
 
   //ex:write dart progrm to find factorial of a given number using while loop.
-  int n=5;
-  int fact=1;
+//   int n=5;
+//   int fact=1;
 
-while(n>0){
-    fact=fact*n;
-    n--;
-  }
-  print("The factorial is: $fact");
-
+// while(n>0){
+//     fact=fact*n;
+//     n--;
+//   }
+//   print("The factorial is: $fact");
 
 }
